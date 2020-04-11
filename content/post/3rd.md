@@ -1,5 +1,5 @@
 ---
-title: "Day2 git远程仓库"
+title: "git远程仓库"
 date: 2020-04-11T10:21:45+08:00
 draft: false
 ---

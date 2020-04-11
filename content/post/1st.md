@@ -1,5 +1,5 @@
 ---
-title: "Day1 Part1 命令行入门"
+title: "命令行入门"
 date: 2020-04-10T08:36:26+08:00
 draft: false
 ---
