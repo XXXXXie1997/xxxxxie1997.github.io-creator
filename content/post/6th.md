@@ -44,27 +44,21 @@ table 为表格标签，一般由`thead tbody tfoot`组成。（都不写的话�
 </thead>
 <tbody>
   <tr>
-    <th></th>
     <th>竖表头1</th>
     <td>值1.1</td>
     <td>值1.2</td>
     <td>值1.3</td>
   </tr>
-
-  <tr></tr>
   <tr>
-    <th></th>
     <th>竖表头2</th>
     <td>值2.1</td>
     <td>值2.2</td>
     <td>值2.3</td>
   </tr>
-
-  <tr></tr>
 </tbody>
 ```
 
-可以得到一个 4\*3 的表格
+可以得到一个 4 x 3 的表格
 
 - `table-layout`用于定义单元格布局的算法。（值为`auto`时根据内容自动计算布局、值为`fixed`时会尽量等宽）
 - `border collapse:collapse`样式属性，用于合并表格（去掉单元格边距）
