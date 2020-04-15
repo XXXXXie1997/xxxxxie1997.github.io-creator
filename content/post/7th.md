@@ -1,5 +1,5 @@
 ---
-title: "CSS文档流"
+title: "CSS文档流与盒模型"
 date: 2020-04-14T17:01:40+08:00
 draft: false
 ---
@@ -31,3 +31,16 @@ draft: false
 - `overflow: scroll;`,该值可以给块元素添加滚动条方便用户通过滚动条浏览块元素内的内容，但很难受的是不管有没有溢出都会有滚动条，很丑……
 - 所以一般使用 `overflow: auto;`会自动根据内容长短添加滚动条，这个是目前最常用的一种处理方式。
 - 也可以使用`overflow-x或y` 可以分别设置横向，纵向的溢出内容，但不是很常用因为比较麻烦。
+
+**CSS 盒模型**：
+CSS 盒模型分为两种：
+
+- 内容盒 content box
+- 边框盒 border box
+  可通过`box-sizing`属性设置盒模型类型。
+  盒模型由`content`、`padding`、`border`、`margin`四个部分组成。
+  **区别**：
+- content box 的宽高为盒内部元素内容宽高总和，即宽高只包含`content`。
+- border box 的宽高为边框的宽高，即宽高为`border`、`padding`和`content`的总和。所以在没设置边框和内边距时，两模型效果基本相同。
+
+关于盒模型的学问还有很多，在以后学习过程中有机会再总结吧。
